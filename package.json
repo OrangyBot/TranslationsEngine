@@ -1,0 +1,29 @@
+{
+  "name": "@orangybot/translationsengine",
+  "version": "1.0.0",
+  "description": "Orangy's translations engine",
+  "main": "OrangyTranslationsEngine/Index.js",
+  "scripts": {
+    "build": "tsc",
+    "prettier": "prettier --write .",
+    "postinstall": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrangyBot/TranslationsEngine.git"
+  },
+  "author": "DottoXD",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/OrangyBot/TranslationsEngine/issues"
+  },
+  "homepage": "https://github.com/OrangyBot/TranslationsEngine#readme",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "prettier": "^2.8.7"
+  },
+  "dependencies": {
+    "i18next": "^22.4.14",
+    "typescript": "^5.0.4"
+  }
+}
