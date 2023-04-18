@@ -10,10 +10,10 @@ This is Orangy's official package to load message translations from your transla
 
 ```javascript
 //ES6:
-import TranslationsEngine from "@orangybot/translationsengine";
+import { OrangyTranslationsEngine } from "@orangybot/translationsengine";
 import Fs from "fs";
 
-const Engine = new TranslationsEngine(
+const Engine = new OrangyTranslationsEngine(
   "./translations", //Translations folder
   true, //Logs?
   "id", //Your translations ID key
@@ -28,10 +28,10 @@ const Translation = Engine.GetTranslation(
 );
 
 //CommonJS:
-const TranslationsEngine = require("@orangybot/translationsengine");
+const { OrangyTranslationsEngine } = require("@orangybot/translationsengine");
 const Fs = require("fs");
 
-const Engine = new TranslationsEngine(
+const Engine = new OrangyTranslationsEngine(
   "./translations", //Translations folder
   true, //Logs?
   "id", //Your translations ID key

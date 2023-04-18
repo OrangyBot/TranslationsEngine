@@ -1,6 +1,6 @@
 {
   "name": "@orangybot/translationsengine",
-  "version": "1.0.0",
+  "version": "1.0.0-4",
   "description": "Orangy's translations engine",
   "main": "OrangyTranslationsEngine/Index.js",
   "scripts": {
