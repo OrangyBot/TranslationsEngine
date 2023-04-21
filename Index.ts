@@ -1,2 +1,2 @@
 import { OrangyTranslationsEngine } from "./Loader";
-export = OrangyTranslationsEngine;
+export default OrangyTranslationsEngine;
