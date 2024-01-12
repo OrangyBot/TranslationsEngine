@@ -22,9 +22,9 @@ const Engine = new OrangyTranslationsEngine(
 );
 
 const Translation = Engine.GetTranslation(
-  "mycooltitle" /* Id */,
-  "Titles" /* Category */,
-  "it" /* Language */
+  "mycooltitle", //The translation ID
+  "Titles", //The translation category
+  "it" //The translation language
 );
 
 //CommonJS:
@@ -40,8 +40,8 @@ const Engine = new OrangyTranslationsEngine(
 );
 
 const Translation = Engine.GetTranslation(
-  "mycooltitle" /* Id */,
-  "Titles" /* Category */,
-  "it" /* Language */
+  "mycooltitle", //The translation ID
+  "Titles", //The translation category
+  "it" //The translation language
 );
 ```
