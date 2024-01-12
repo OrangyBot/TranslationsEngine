@@ -10,7 +10,7 @@ export class OrangyTranslationsEngine {
     DefaultLanguage?: string
   ) {
     if (!Dir || Logs == null || !TranslationIdKey || !TranslationIdContent) {
-      console.log("[TranslationsEngine] One or more arguments are missing!");
+      console.log("[TE] One or more arguments are missing!");
       process.exit(1);
     }
 

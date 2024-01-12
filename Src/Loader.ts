@@ -32,7 +32,7 @@ export default class OranygTranslationsEngine {
         for (const Translation of Translations.keys) {
           if (Logs)
             console.log(
-              "[TranslationsEngine] Registering translation " +
+              "[TE] Registering translation " +
                 Translation[TranslationIdKey] +
                 " for category " +
                 Category +

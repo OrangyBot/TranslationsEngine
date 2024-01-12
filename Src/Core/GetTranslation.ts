@@ -7,7 +7,7 @@ export default async function GetTranslation(
   Language: string
 ): Promise<string> {
   if (!Initialized)
-    return "[TranslationsEngine] The module has not been initialized! Check https://github.com/OrangyBot/TranslationsEngine#how-to-use for a guide on how to use this!";
+    return "[TE] The module has not been initialized! Check https://github.com/OrangyBot/TranslationsEngine#how-to-use for a guide on how to use this!";
   const FallbackString = await i18next.getResource(
     DefaultLanguage,
     Category,
