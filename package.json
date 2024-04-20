@@ -1,6 +1,6 @@
 {
   "name": "@orangybot/translationsengine",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Orangy's translations engine",
   "main": "OrangyTranslationsEngine/Index.js",
   "scripts": {
@@ -19,11 +19,11 @@
   },
   "homepage": "https://github.com/OrangyBot/TranslationsEngine#readme",
   "devDependencies": {
-    "@types/node": "^20.11.16",
+    "@types/node": "^20.12.7",
     "prettier": "^3.2.5"
   },
   "dependencies": {
-    "i18next": "^23.8.2",
-    "typescript": "^5.3.3"
+    "i18next": "^23.11.2",
+    "typescript": "^5.4.5"
   }
 }
